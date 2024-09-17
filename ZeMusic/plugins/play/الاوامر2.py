@@ -21,7 +21,7 @@ async def arbic(_, query: CallbackQuery):
                         url=f"https://t.me/{app.username}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("الـبـاشـة", url=f"https://t.me/G_D_U_VIP"),
+                [InlineKeyboardButton("الـبـاشـة", url=f"https://t.me/G_aE5"),
                 
 InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="afyona"),
                 ],
@@ -38,7 +38,7 @@ InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url="https://t.me/N_9_N_6"
+                        "‹ الدعم ›", url="https://t.me/G_aE5"
                     )
                 ],
             ]
@@ -65,19 +65,19 @@ InlineKeyboardButton(" member keyboard ", callback_data="Q_XUQ"),
                 ],
                 [                
                     InlineKeyboardButton(" Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton(" Donate ", url=f"https://t.me/G_D_U_VIP"),
+                    InlineKeyboardButton(" Donate ", url=f"https://t.me/G_aE5"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "الـبـاشـة", url=f"https://t.me/G_D_U_VIP"
+                        "الـبـاشـة", url=f"https://t.me/G_aE5"
                     ),
                     InlineKeyboardButton(
-                        "‹ المطور ›", url=f"https://t.me/G_D_U"
+                        "‹ المطور ›", url=f"https://t.me/MG4_44"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url="https://t.me/N_9_N_6"
+                        "‹ الدعم ›", url="https://t.me/Fr3on_S"
                     )
                 ],
             ]
