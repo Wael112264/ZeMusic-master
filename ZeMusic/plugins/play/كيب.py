@@ -74,7 +74,7 @@ async def dowhmo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "قناة السورس", url=f"https://t.me/G_D_U_VIP"),
+                        "قناة السورس", url=f"https://t.me/G_aE5"),
                 ],[
                     InlineKeyboardButton(
                         "• ضيفني لقروبك 🎻", url=f"https://t.me/{app.username}?startgroup=true"),
