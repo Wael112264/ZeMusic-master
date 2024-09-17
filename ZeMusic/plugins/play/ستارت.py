@@ -9,10 +9,10 @@ async def arbic(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
         f""" 🇮🇶**[مرحبا بك] [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) ! \n
-※ [انا بوت تشغيل الأغاني والفيديو  في المكالمه المرئية](https://t.me/G_D_U_VIP) \n
-※[لاظهار كيبورد الاعضاء اضغط](https://t.me/G_D_U_VIP) /ZE \n
-※ [في حال مواجهه اي مشكله انضم هنا](https://t.me/G_D_U_VIP)\n [الـبـاشـة](https://t.me/G_D_U_VIP)
-※ [استخدم الازرار لمعرفه الاوامر المستخدمه.](https://t.me/G_D_U_VIP) """,
+※ [انا بوت تشغيل الأغاني والفيديو  في المكالمه المرئية](https://t.me/G_aE5) \n
+※[لاظهار كيبورد الاعضاء اضغط](https://t.me/G_aE5) /ZE \n
+※ [في حال مواجهه اي مشكله انضم هنا](https://t.me/G_aE5)\n [الـبـاشـة](https://t.me/G_aE5)
+※ [استخدم الازرار لمعرفه الاوامر المستخدمه.](https://t.me/G_aE5) """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -21,7 +21,7 @@ async def arbic(_, query: CallbackQuery):
                         url=f"https://t.me/{app.username}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("الدعم والتواصل", url=f"https://t.me/N_9_N_6"),
+                [InlineKeyboardButton("الدعم والتواصل", url=f"https://t.me/G_aE5"),
                 
 InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="ze"),
                 ],
@@ -30,12 +30,12 @@ InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/G_D_U_VIP"
+                        "‹ السورس ›", url=f"https://t.me/G_aE5"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ المطور ›", url="https://t.me/G_D_U"
+                        "‹ المطور ›", url="https://t.me/MG4_44"
                     )
                 ],
             ]
@@ -58,15 +58,15 @@ async def english(_, query: CallbackQuery):
                 ],
                 [InlineKeyboardButton(" Basic Guide", callback_data="cbhowtouse"),
                 
-InlineKeyboardButton(" member keyboard ", callback_data="G_D_U_VIP"),
+InlineKeyboardButton(" member keyboard ", callback_data="G_aE5"),
                 ],
                 [                
                     InlineKeyboardButton(" Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton(" Donate", url=f"https://t.me/G_D_U_VIP"),
+                    InlineKeyboardButton(" Donate", url=f"https://t.me/G_aE5"),
                 ],
                 [
                     InlineKeyboardButton(
-                        " DEVELOPER ", url="https://t.me/G_D_U"
+                        " DEVELOPER ", url="https://t.me/MG4_44"
                     )
                 ],
             ]
@@ -82,7 +82,7 @@ async def cbguides(_, query: CallbackQuery):
 1.) **First, add me to your group.**
 2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
 3.) **After promoting me, type /reload in group to refresh the admin data.**
-3.) **Add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.**
+3.) **Add @AS_WQA{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.**
 4.) **Turn on the video chat first before start to play video/music.**
 5.) **Sometimes, reloading the bot by using /reload command can help you to fix some problem.**
 📌 **If the userbot not joined to video chat, make sure if the video chat already turned on, or type /userbotleave then type /userbotjoin again.**
@@ -93,7 +93,7 @@ async def cbguides(_, query: CallbackQuery):
         ),
     )
 
-@Client.on_callback_query(filters.regex("G_D_U_VIP"))
+@Client.on_callback_query(filters.regex("G_aE5"))
 async def cbguides(_, query: CallbackQuery):
     await query.answer("user guide")
     await query.edit_message_text(
@@ -203,7 +203,7 @@ async def acbguides(_, query: CallbackQuery):
 4.) **تاكد كن تشغيل المحادثة المرئية \n√.**
 5.) ** /Reload اذا واجهت خطأ قم بكتابة الامر \n√.**
 💎 ** في حال لم يستطع الحساب المساعد الانضمام اللي المحادثة المرئية قم بطرد الحساب المساعد بالأمر /غادر \n√.  \n ودعوتة من جديد عنريق الامر /انضم \n√.**
-\n√ **في حال واجهت اي مشكلة اخري يمكنك التواصل مع زد إي من هن : @G_D_U_VIP **
+\n√ **في حال واجهت اي مشكلة اخري يمكنك التواصل مع زد إي من هن : @G_aE5 **
 \n __ Developer """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("العودة", callback_data="arbic")]]
