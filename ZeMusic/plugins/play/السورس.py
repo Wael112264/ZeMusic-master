@@ -20,21 +20,21 @@ async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/522d508e2bcb1db660111.jpg",
         caption=f"""**ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ . .
- [الـبـاشـة](https://t.me/G_D_U_VIP)**""",
+ [الـبـاشـة](https://t.me/G_aE5)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "المطور", url=f"https://t.me/G_D_U"), 
+                        "المطور", url=f"https://t.me/MG4_44"), 
                     
                 
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url=f"https://t.me/N_9_N_6"),
+                        "‹ الدعم ›", url=f"https://t.me/Fr3on_S"),
                 ],[
                     
                 
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/G_D_U_VIP"),
+                        "‹ السورس ›", url=f"https://t.me/G_aE5"),
                 
         ],
 
