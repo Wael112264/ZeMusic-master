@@ -8,12 +8,12 @@ from ..logging import LOGGER
 
 class Mody(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot...")
+        LOGGER(, "AS_WQA").info(f"Starting Bot...")
         super().__init__(
-            name="ZeMusic",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            bot_token=config.BOT_TOKEN,
+            name="MUSIC FR3ON",
+            api_id=config.API_ID, "20437942"
+            api_hash=config.API_HASH, "abb0a6303ec6de4c5125b4fcdaf2b7b4"
+            bot_token=config.BOT_TOKEN, "6915305650:AAFs2c8IIXC-aeL-dZZCB_UHbvOpBhf_Okc"
             in_memory=True,
             parse_mode=ParseMode.HTML,
             max_concurrent_transmissions=7,
