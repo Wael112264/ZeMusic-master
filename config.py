@@ -11,24 +11,24 @@ API_ID = int(getenv("API_ID","25281175"))
 API_HASH = getenv("API_HASH","6d99cb2b60a2c519fc1f99bd19565730")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6915305650:AAFs2c8IIXC-aeL-dZZCB_UHbvOpBhf_Okc")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI",None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moha13828med:Mohamedwael454@cluster0.no0u0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 480))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("LOGGER_ID", 6890725913))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 733756075))
+OWNER_ID = int(getenv("OWNER_ID", 6890725913))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "fgjlfdf")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-b0b54666-5664-457b-b0cd-a81e0bbfa05f")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -36,11 +36,11 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+    "GIT_TOKEN", "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"
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/G_D_U_VIP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/N_9_N_6")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/G_aE5")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Fr3on_S")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
